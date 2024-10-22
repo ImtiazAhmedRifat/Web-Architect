@@ -89,7 +89,19 @@ main{
     gap: 1.5rem; 
    
 }
-
+.our-feature{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.feature-title{
+ font-size: 3rem;
+font-weight: 700;
+line-height: 3.5rem;
+letter-spacing: 0%;
+}
+.text-feature{
+   color: #FF900E;
+}
 
 /* mobile device */
 
@@ -99,5 +111,18 @@ main{
         flex-direction: column;
         /* justify-content: start; */
 
+    }
+    .teams{
+        flex-direction: column-reverse;
+    }
+    .our-features{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: 20px;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
